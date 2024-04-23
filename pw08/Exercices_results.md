@@ -35,7 +35,7 @@ Link of the paper : https://arxiv.org/pdf/1602.07261.pdf
 **Questions** : Re-explain in few phrases what you understood from the architecture doing comparison
 with the architectures presented in the class.
 
-Inception-v4 is the fourth iteration of this model. It is more efficient due to an architecture that is more uniform and better organized. It is also more effective in managing computational resources, which translates into increased speed in image data processing while maintaining high accuracy. Its connection to ResNet is primarily conceptual, in that Inception-v4 incorporates ideas of modularity and efficiency from connections, though it does not directly use the characteristic residual connections of ResNet. This integration allows it to benefit from some of the advantages of residual architectures, such as improved gradient propagation, without complicating the architecture with additional connections.
+Inception-v4 is the fourth iteration of this model. It is more efficient due to an architecture that is more uniform and better organized. It is also more effective in managing computational resources, which goes into increased speed in image data processing while maintaining high accuracy. Its connection to ResNet is primarily conceptual, in that Inception-v4 incorporates ideas of modularity and efficiency from connections, though it does not directly use the characteristic residual connections of ResNet. This integration allows it to benefit from some of the advantages of residual architectures, such as improved gradient propagation, without complicating the architecture with additional connections.
 
 
 # Exercise 3 : Optional : Review Questions
