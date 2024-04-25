@@ -94,7 +94,14 @@ Data augmentation is really helpful because it makes models perform better on ne
 
 ## Exercise 2 - Visualisation of Activations
 
-if needed
+The goal here is to implement a code to visualize all the filters at a given layer.  Here is the code used :
+
+```
+
+```
+
+
+
 
 ## Exercise 3 - Review questions - Optional
 
