@@ -94,20 +94,24 @@ Data augmentation is really helpful because it makes models perform better on ne
 
 ## Exercise 2 - Visualisation of Activations
 
-The goal here is to implement a code to visualize all the filters at a given layer.  Here is the code used :
-
-```
-
-```
-
-
+The responses to the questions of this exercise are in the notebook "Exercise_2".
 
 
 ## Exercise 3 - Review questions - Optional
 
+
 **a) Explain 2 strategies to visualise the modelling taking place in CNNs.**
+
+- The first strategy is to visualize the activations of the different layers of the CNN as we made it in exercise 2. This can be done by plotting the output of the convolutional layers, which are the feature maps.
+- The second strategy is to visualize the convolutional filters or kernels themselves. These filters represent the weights that the network has learned during training to detect specific patterns in the input images.
 
 **b) What do we try to fight when using data augmentation ?**
 
+- Overfitting is the main problem that data augmentation helps to fight. Data augmentation helps to prevent overfitting by making the model see new, slightly altered images during training. This helps the model learn to generalize and perform better on new data.
+
+
 **c) What are the implementation strategies for data augmentation ?**
+
+- There are several implementation strategies for data augmentation. One common strategy is to use the ImageDataGenerator class in Keras, which allows you to specify different types of data augmentation, such as rotation, translation, shear, zoom, and flipping. 
+- Another strategy is to use data augmentation libraries, which provide more advanced data augmentation techniques and allow to customize the augmentation pipeline. 
 
