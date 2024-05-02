@@ -1,4 +1,37 @@
+# Practical work 10 - Exercices
+
+- **Students:** Daniel Ribeiro Cabral, Ruben Terceiro
+
+
 # Results 
+
+## Exercice 1 - Functional API of Keras
+
+| Model                   | Architecture                                                    | Callback| Total parameters | Acc. train % | Acc. test % |
+|-------------------------|-----------------------------------------------------------------|---------|--------------|-------------|-------------|
+| 1                       | Sequential - Structure inspired by VGGNet                       | yes    |479,434       | 0.83 | 0.86        |
+| 2                       | Functional API - Single Path inspired by VGGNet (SPVGGNet)      | yes    |479,434       | 0.83 | 0.82        |
+| 3                       | Functional API - Multiple Path inspired by VGGNet (MPVGGNet)    | yes    |583,690       | 0.84 | 0.82        |
+| 4                       | Functional API - Mutliple Path Personalised Architecture (MPPA) | yes    |50,477,450    | 0.1  | 0.1         |
+
+**a) Re-use one of your best CNN architecture from the previous PWs and transform the
+model definition from sequential to the functional API. Observe that you get the same
+number of parameters and similar performances between the sequential and functional
+models.**
+In the table above, we can see that the model 2 has the same number of parameters as the model 1. Regarding the accuracy, the model 1 has a better accuracy on the test set than the model 2, but the diffrence it's ridiculous.
+
+**b) Experiment with non-sequential strategies such as multiple features or multiple paths as
+described in the lecture slides.**
+Done, results written in the table.
+
+**d) Use callbacks to save the best trained models according to a monitoring of the accuracy on the test set.**
+Callbacks used for all the experiments.
+
+**Conclusion according to our results.**
+The first two models have a similar performance (first one slightly better in accuracy test), the third also has similar performance but with more parameters. According to these similar results, we can say that using functional API didn't improve the performance of the models.
+Finally, the last one was imagined by us so the performance are really bad, the purpose of this model was above to test functional API with 3 different paths.
+
+
 
 ## Exo 2 - Transfer learning
 
